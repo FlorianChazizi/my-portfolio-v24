@@ -4,8 +4,8 @@ import '../styles/header.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const menuRef = useRef(null); // To track the nav menu
-  const buttonRef = useRef(null); // To track the hamburger button
+  const menuRef = useRef<HTMLDivElement | null>(null); // To track the nav menu
+  const buttonRef = useRef<HTMLButtonElement | null>(null); // To track the hamburger button
 
   // Toggle menu open/close
   const toggleMenu = () => {
@@ -19,12 +19,12 @@ const Navbar = () => {
 
   // Close the menu when clicking outside of the menu or button
   useEffect(() => {
-    const handleClickOutside = (event) => {
+    const handleClickOutside = (event: MouseEvent) => {
       if (
         menuRef.current &&
         buttonRef.current &&
-        !menuRef.current.contains(event.target) &&
-        !buttonRef.current.contains(event.target)
+        !menuRef.current.contains(event.target as Node) &&
+        !buttonRef.current.contains(event.target as Node)
       ) {
         setIsOpen(false);
       }
@@ -76,9 +76,7 @@ const Navbar = () => {
       {/* Mobile Dropdown Menu */}
       <div
         ref={menuRef} // Reference to track the dropdown menu
-        className={`md:hidden fixed top-0 left-0 w-full bg-navy text-yellow transition-all duration-500 ease-in-out transform ${
-          isOpen ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
-        }`}
+        className={`md:hidden fixed top-0 left-0 w-full bg-navy text-yellow transition-all duration-500 ease-in-out transform ${isOpen ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}`}
       >
         <div className="flex flex-col items-center space-y-4 py-4">
           <a href="#about" onClick={handleLinkClick} className="text-yellow navlinks px-3 py-2">About</a>
