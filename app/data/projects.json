@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Project 1",
+      "image": "/images/project1.png",
+      "techStack": ["React", "Node.js", "MongoDB"],
+      "githubUrl": "https://github.com/your-username/project1",
+      "liveUrl": "https://project1-live-demo.com"
+    },
+    {
+      "title": "Project 2",
+      "image": "/images/project2.png",
+      "techStack": ["Vue", "Firebase"],
+      "githubUrl": "https://github.com/your-username/project2",
+      "liveUrl": "https://project2-live-demo.com"
+    },
+    {
+      "title": "Project 3",
+      "image": "/images/project1.png",
+      "techStack": ["React", "Node.js", "MongoDB"],
+      "githubUrl": "https://github.com/your-username/project1",
+      "liveUrl": "https://project1-live-demo.com"
+    },
+    {
+      "title": "Project 4",
+      "image": "/images/project2.png",
+      "techStack": ["Vue", "Firebase"],
+      "githubUrl": "https://github.com/your-username/project2",
+      "liveUrl": "https://project2-live-demo.com"
+    },
+    {
+      "title": "Project 5",
+      "image": "/images/project2.png",
+      "techStack": ["Vue", "Firebase"],
+      "githubUrl": "https://github.com/your-username/project2",
+      "liveUrl": "https://project2-live-demo.com"
+    }
+  ]
