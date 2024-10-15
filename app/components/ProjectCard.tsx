@@ -1,12 +1,12 @@
 // components/ProjectCard.tsx
 import React from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 // Define the structure of the project
 interface Project {
   title: string;
-  image: string;
+  image: StaticImageData;
   techStack: string[];
   githubUrl: string;
   liveUrl: string;

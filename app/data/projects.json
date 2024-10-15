@@ -1,10 +1,10 @@
 [
     {
-      "title": "Project 1",
-      "image": "/images/project1.png",
-      "techStack": ["React", "Node.js", "MongoDB"],
-      "githubUrl": "https://github.com/your-username/project1",
-      "liveUrl": "https://project1-live-demo.com"
+      "title": "Community Engagement Platform",
+      "image": "/assets/cep.png",
+      "techStack": ["ReactJS", "Node.js", "ExpressJS", "MongoDB"],
+      "githubUrl": "https://github.com/FlorianChazizi/Community",
+      "liveUrl": "https://community-front-red.vercel.app/"
     },
     {
       "title": "Project 2",
