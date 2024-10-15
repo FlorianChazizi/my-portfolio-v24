@@ -18,6 +18,7 @@ const Technologies: React.FC = () => {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
+                <li>TypeScript</li>
                 <li>React</li>
                 <li>Vue</li>
                 <li>NextJS</li>
