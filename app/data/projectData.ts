@@ -1,6 +1,5 @@
 import cepImage from '../assets/cep.png';
 import conco from '../assets/prift.png';
-import rightArrowImage from '../assets/right-arrow.png';
 import  { StaticImageData } from 'next/image';
 
 // Define the structure of your project data
@@ -27,12 +26,5 @@ export const projects: Project[] = [
     techStack: ["NextJS", "TailwindCSS"],
     githubUrl: "https://github.com/FlorianChazizi/constructioncompany",
     liveUrl: "https://constructioncompany-l1cy.vercel.app/"
-  },
-  {
-    title: "Project 3",
-    image: rightArrowImage,
-    techStack: ["React", "Node.js", "MongoDB"],
-    githubUrl: "https://github.com/your-username/project3",
-    liveUrl: "https://project3-live-demo.com"
   }
 ];

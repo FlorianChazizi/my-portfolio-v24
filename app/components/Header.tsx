@@ -54,6 +54,8 @@ const Navbar = () => {
           <div className="hidden md:flex space-x-8 items-center">
             <a href="#about" className="text-yellow navlinks">About</a>
             <a href="#projects" className="text-yellow navlinks">Projects</a>
+            <a href="#technologies" className="text-yellow navlinks">Technologies</a>
+
             <a href="#contact" className="text-yellow navlinks">Contact</a>
           </div>
 
@@ -81,6 +83,8 @@ const Navbar = () => {
         <div className="flex flex-col items-center space-y-4 py-4">
           <a href="#about" onClick={handleLinkClick} className="text-yellow navlinks px-3 py-2">About</a>
           <a href="#projects" onClick={handleLinkClick} className="text-yellow navlinks px-3 py-2">Projects</a>
+          <a href="#technologies" onClick={handleLinkClick} className="text-yellow navlinks">Technologies</a>
+
           <a href="#contact" onClick={handleLinkClick} className="text-yellow navlinks px-3 py-2">Contact</a>
         </div>
       </div>
