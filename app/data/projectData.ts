@@ -17,7 +17,7 @@ export const projects: Project[] = [
     title: "Community Engagement Platform",
     image: cepImage,  // Directly use the imported image
     techStack: ["ReactJS", "Node.js", "ExpressJS", "MongoDB", "API", "Authentication"],
-    githubUrl: "https://github.com/your-username/project1",
+    githubUrl: "https://github.com/FlorianChazizi/Community",
     liveUrl: "https://community-front-red.vercel.app/"
   },
   {
